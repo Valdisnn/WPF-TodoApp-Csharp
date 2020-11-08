@@ -16,7 +16,7 @@ namespace TodoApp.Services {
       PATH = path;
     }
 
-    public BindingList < TodoModel > LoadData() {
+    public BindingList < TodoModel > LoadData() { 
       var fileExists = File.Exists(PATH);
       if (!fileExists) {
         File.CreateText(PATH).Dispose();

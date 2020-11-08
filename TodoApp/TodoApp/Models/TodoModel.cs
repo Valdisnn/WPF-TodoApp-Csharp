@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace TodoApp.Models {
-  class TodoModel: INotifyPropertyChanged {
+  class TodoModel: INotifyPropertyChanged { 
     // Дата создания
     public DateTime CreationDate {
       get;

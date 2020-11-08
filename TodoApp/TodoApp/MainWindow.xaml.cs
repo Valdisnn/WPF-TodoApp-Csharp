@@ -59,7 +59,7 @@ namespace TodoApp {
       }
     }
 
-    private void AllItemsDelete(object sender, RoutedEventArgs e) {
+    private void AllItemsDelete(object sender, RoutedEventArgs e) { 
       File.WriteAllText(PATH, "[]");
       _fileIOService = new FileIOService(PATH);
       try {
